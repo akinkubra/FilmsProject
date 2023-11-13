@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmsProject</name>
+    </assembly>
+    <members>
+        <member name="M:FilmsProject.Controllers.FilmController.#ctor(FilmsProject.Services.IFilmService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FilmsProject.Controllers.FilmController"/> class.
+            </summary>
+            <param name="filmService">The film service.</param>
+        </member>
+        <member name="M:FilmsProject.Controllers.FilmController.GetAll">
+            <summary>
+            Get all movies
+            </summary>
+        </member>
+        <member name="M:FilmsProject.Controllers.FilmController.GetFilmById(System.Int32)">
+            <summary>
+            Get movie by id
+            Movie id is required, please enter valid movie id
+            Please enter valid movie id
+            </summary>
+        </member>
+        <member name="M:FilmsProject.Controllers.FilmController.AddFilm(FilmsProject.DTO.RequestDTO.AddFilmRequestDTO)">
+            <summary>
+            Add movie with given informations
+            CategoryId 1 is Action
+            CategoryId 2 is Comedy
+            CategoryId 3 is Horror
+            CategoryId 4 is Science Fiction
+            CategoryId 5 is Western
+            CategoryId 6 is Love
+            UserId 1 is corresponnd to kpoyraz
+            Movie name is required
+            CategoryId is required
+            Please enter valid categoryId
+            userId is required
+            Please enter valid userId
+            </summary>
+        </member>
+        <member name="M:FilmsProject.Controllers.FilmController.UpdateFilm(System.Int32,FilmsProject.DTO.RequestDTO.UpdateRequestDTO)">
+            <summary>
+            Update movie with given id and informations 
+            CategoryId 1 is Action
+            CategoryId 2 is Comedy
+            CategoryId 3 is Horror
+            CategoryId 4 is Science Fiction
+            CategoryId 5 is Western
+            CategoryId 6 is Love
+            UserId 1 is corresponnd to kpoyraz
+            Movie id is required, please enter valid movie id
+            Please enter valid movie id
+            Please enter valid categoryId
+            userId is required
+            Please enter valid userId
+            </summary>
+        </member>
+        <member name="M:FilmsProject.Controllers.FilmController.DeleteFilm(System.Int32)">
+            <summary>
+            Delete movie with given id 
+            Movie id is required, please enter valid movie id
+            Please enter valid movie id
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.Category.Action">
+            <summary>
+            The Action
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.Category.Comedy">
+            <summary>
+            The Comedy
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.Category.Horror">
+            <summary>
+            The Horror
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.Category.ScienceFiction">
+            <summary>
+            The Science Fiction
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.Category.Western">
+            <summary>
+            The Western
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.Category.Love">
+            <summary>
+            The Love
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.ResponseStatus.Success">
+            <summary>
+            The success
+            </summary>
+        </member>
+        <member name="F:FilmsProject.Enum.ResponseStatus.Failure">
+            <summary>
+            The failure
+            </summary>
+        </member>
+        <member name="T:FilmsProject.Migrations.CreateTables">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmsProject.Migrations.CreateTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmsProject.Migrations.CreateTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmsProject.Migrations.CreateTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmsProject.Migrations.AlterTables">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmsProject.Migrations.AlterTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmsProject.Migrations.AlterTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmsProject.Migrations.AlterTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
